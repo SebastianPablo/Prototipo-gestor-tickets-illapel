@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- Configuración básica del documento -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestor de Tickets - Municipalidad de Illapel</title>
+    
+    <!-- Enlaces a archivos CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Contenedor principal de la aplicación -->
+    <div class="container">
+        <!-- Contenedor del formulario de login -->
+        <div class="login-container">
+            <!-- Encabezado con logo y título -->
+            <div class="header">
+                <i class="fas fa-ticket-alt"></i>
+                <h1>Gestor de Tickets</h1>
+                <h2>Municipalidad de Illapel</h2>
+                <p>Sistema de Soporte Informático</p>
+            </div>
+            
+            <!-- Botones de selección de tipo de acceso -->
+            <div class="login-options">
+                <!-- Botón para acceso de funcionarios -->
+                <button class="login-btn user-btn" onclick="showUserLogin()">
+                    <i class="fas fa-user"></i>
+                    Acceso Usuario
+                </button>
+                <!-- Botón para acceso de administradores -->
+                <button class="login-btn admin-btn" onclick="showAdminLogin()">
+                    <i class="fas fa-cog"></i>
+                    Acceso Administrador
+                </button>
+            </div>
+
+            <!-- Formulario de Login para Funcionarios -->
+            <div id="userLoginForm" class="login-form hidden">
+                <h3>Acceso de Usuario</h3>
+                <!-- Formulario de autenticación para funcionarios -->
+                <form onsubmit="loginUser(event)">
+                    <div class="form-group">
+                        <label for="userEmail">Email:</label>
+                        <input type="email" id="userEmail" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="userPassword">Contraseña:</label>
+                        <input type="password" id="userPassword" required>
+                    </div>
+                    <button type="submit" class="submit-btn">Ingresar</button>
+                </form>
+                <button class="back-btn" onclick="hideLoginForms()">Volver</button>
+            </div>
+
+            <!-- Formulario de Login para Administradores -->
+            <div id="adminLoginForm" class="login-form hidden">
+                <h3>Acceso de Administrador</h3>
+                <!-- Formulario de autenticación para administradores -->
+                <form onsubmit="loginAdmin(event)">
+                    <div class="form-group">
+                        <label for="adminEmail">Email:</label>
+                        <input type="email" id="adminEmail" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="adminPassword">Contraseña:</label>
+                        <input type="password" id="adminPassword" required>
+                    </div>
+                    <button type="submit" class="submit-btn">Ingresar</button>
+                </form>
+                <button class="back-btn" onclick="hideLoginForms()">Volver</button>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <!-- Enlace al archivo JavaScript principal -->
+    <script src="script.js"></script>
+</body>
+</html>

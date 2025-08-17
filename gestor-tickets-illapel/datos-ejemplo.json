@@ -1,0 +1,92 @@
+{
+  "tickets": [
+    {
+      "id": "1703123456789",
+      "title": "Problema con impresora en oficina de finanzas",
+      "description": "La impresora HP LaserJet Pro M404n no está funcionando correctamente. Cuando intento imprimir documentos, aparece un error de 'papel atascado' aunque no hay papel atascado. He intentado reiniciar la impresora pero el problema persiste. Necesito ayuda urgente ya que tengo que imprimir reportes importantes para el fin de mes.",
+      "userEmail": "usuario1@illapel.cl",
+      "userName": "Juan Pérez",
+      "date": "2023-12-20T10:30:00.000Z",
+      "resolved": false,
+      "messages": [
+        {
+          "sender": "admin",
+          "text": "Hola Juan, hemos recibido tu reporte sobre la impresora. Un técnico pasará por tu oficina en la tarde para revisar el problema.",
+          "timestamp": "2023-12-20T11:00:00.000Z"
+        },
+        {
+          "sender": "user",
+          "text": "Perfecto, gracias. ¿A qué hora aproximadamente llegará el técnico?",
+          "timestamp": "2023-12-20T11:15:00.000Z"
+        },
+        {
+          "sender": "admin",
+          "text": "El técnico llegará entre las 14:00 y 15:00 horas. Te avisaremos cuando esté en camino.",
+          "timestamp": "2023-12-20T11:30:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "1703123456790",
+      "title": "Solicitud de acceso a sistema municipal",
+      "description": "Necesito acceso al sistema de gestión municipal para poder ingresar datos de licencias comerciales. Soy nuevo en el departamento y no tengo credenciales asignadas. Requiero acceso con permisos de lectura y escritura para mi área de trabajo.",
+      "userEmail": "usuario2@illapel.cl",
+      "userName": "María González",
+      "date": "2023-12-19T09:15:00.000Z",
+      "resolved": true,
+      "messages": [
+        {
+          "sender": "admin",
+          "text": "Hola María, hemos creado tu cuenta de usuario en el sistema municipal. Te enviaremos las credenciales por email interno.",
+          "timestamp": "2023-12-19T10:00:00.000Z"
+        },
+        {
+          "sender": "user",
+          "text": "Excelente, ¿cuándo recibiré el email con las credenciales?",
+          "timestamp": "2023-12-19T10:30:00.000Z"
+        },
+        {
+          "sender": "admin",
+          "text": "Ya fue enviado. Revisa tu bandeja de entrada. Si no lo encuentras, revisa la carpeta de spam.",
+          "timestamp": "2023-12-19T11:00:00.000Z"
+        },
+        {
+          "sender": "user",
+          "text": "Perfecto, ya recibí las credenciales y pude acceder al sistema. Muchas gracias por la ayuda.",
+          "timestamp": "2023-12-19T14:30:00.000Z"
+        },
+        {
+          "sender": "admin",
+          "text": "Me alegra que ya puedas trabajar. Si tienes alguna duda sobre el uso del sistema, no dudes en contactarnos.",
+          "timestamp": "2023-12-19T15:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "1703123456791",
+      "title": "Internet lento en el departamento de obras",
+      "description": "La conexión a internet en el departamento de obras está muy lenta desde hace varios días. Los archivos tardan mucho en cargar y las páginas web no responden correctamente. Esto está afectando nuestro trabajo diario. ¿Pueden revisar la conexión?",
+      "userEmail": "usuario1@illapel.cl",
+      "userName": "Juan Pérez",
+      "date": "2023-12-18T16:45:00.000Z",
+      "resolved": false,
+      "messages": [
+        {
+          "sender": "admin",
+          "text": "Hola Juan, hemos detectado que hay un problema con el switch de red en tu área. Estamos trabajando para solucionarlo.",
+          "timestamp": "2023-12-18T17:00:00.000Z"
+        },
+        {
+          "sender": "user",
+          "text": "¿Cuánto tiempo estiman que tardará la reparación?",
+          "timestamp": "2023-12-18T17:15:00.000Z"
+        },
+        {
+          "sender": "admin",
+          "text": "Estimamos que estará listo mañana en la mañana. Mientras tanto, puedes usar la conexión WiFi del área administrativa si es urgente.",
+          "timestamp": "2023-12-18T17:30:00.000Z"
+        }
+      ]
+    }
+  ]
+}
